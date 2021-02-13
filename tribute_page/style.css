@@ -1,0 +1,133 @@
+
+body{
+    font: serif, Arial;
+}
+
+#main{
+    display: block;
+    width: 900px;
+    border: 1px solid grey;
+    margin: auto;    
+    font-family: "Trebuchet MS", Helvetica;
+}
+
+#header {
+    height: 0;
+}
+
+#title {
+    display: block;
+    width: 900px;
+    text-align: center;
+    background-color:cornsilk;
+    font-family:cursive;
+    height: 140px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+
+h1 a{
+    text-decoration: none;
+    font-size: 40px;
+    color:burlywood;
+}
+
+h3 {
+    font-size: 20px;
+    color:chocolate;
+}
+
+#tribute-info{
+    text-align:justify;
+    background-color:cornsilk;
+    margin-top: 8px;
+    margin-right: 250px;
+    margin-bottom: 3px;
+    margin-left: 250px;
+    border: 1px solid gray;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#tribute-info li {
+    line-height: 15px;
+    text-align: justify;
+    letter-spacing: 0.3px;
+    text-overflow:clip;
+    margin-left: 50px;
+}
+
+p {
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: 0.3px;
+    text-overflow: clip;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 25px;
+}
+    
+hr {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+    
+#tribute-info ul li{
+    margin-bottom: 10px;
+}
+    
+#img-div{
+    height:auto;
+    max-width: 500px;
+    text-align: center;
+    padding: 6px;
+    margin: 0 auto;
+}
+    
+#img-div img{
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+}
+
+#img-caption{
+    padding-top: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.footer{
+    text-align:justify;
+    background-color:cornsilk;
+    margin-top: 8px;
+    margin-right: 250px;
+    margin-bottom: 3px;
+    margin-left: 250px;
+    border: 1px solid gray;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 13px;
+}
+
+#leslie {
+    margin-bottom: 80px;
+}
+
+#obituary {
+    float: right;
+}
+
+.footer div{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+#last{
+    margin-bottom: 50px;
+}
+

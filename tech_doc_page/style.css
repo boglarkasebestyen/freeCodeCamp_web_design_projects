@@ -1,0 +1,286 @@
+html, body, head {
+    padding: 10px;
+    margin: 10px;
+    font-family:sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    line-height: 26px;
+    text-overflow: clip;
+    background-color: white;
+}
+
+
+/*
+#main-doc{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    text-align: justify;
+}
+*/
+
+
+/*entire page*/
+.main-doc1{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items:stretch;
+    height: 100%;
+    text-align: justify;
+}
+
+
+
+/*still entire doc - needed to separate the navbar from the main section*/
+#box-container{
+    height: auto;
+    display: flex;
+    flex: 1;
+}
+
+
+
+/*title header*/
+#photoscape_header {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center; 
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+#header-img {
+    display: flex;
+    flex-direction:column;
+    flex: 1;
+    width: 30%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 35%;
+    
+}
+
+/*main section / documentation */
+#second_main {
+    width: 70%;
+    height: 50%;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+/*NAVIGATION */
+
+
+/*same - think I don't need to style the id, the class is enough*/
+.entire_nav-bar {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    height: 100%;
+    text-align: justify; 
+    background-color: black;
+    color: seagreen;
+    margin-left: -40px;
+    margin-top: -50px;
+    padding-bottom: 200px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 15px;
+}
+
+
+.nav-link:visited {
+    color:seagreen;
+}
+
+.nav-link:hover {
+    font-size: 14px;
+    font-weight: bold;
+    transition: font-size 0.5s ease;
+    background-color:white;
+
+}
+
+.nav-link ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    padding: 10px;
+    text-align:left;
+    line-height: 18px;
+    margin-left: 20px;
+    
+}
+
+.main-section{
+    margin: 15px 20px 20px 20xp;
+}
+
+hr {
+    border-style:ridge;
+    margin-top: 40px;
+}
+
+header {
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+
+
+#program_features li{
+    list-style:circle;
+    margin: 20px;
+}
+
+
+.code1 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    font-weight: 600;
+    border-style: solid;
+    border-radius: 40px;
+    border-width:thin;
+    padding: 10px;
+    text-align: justify;
+    line-height: 18px;
+    background-color: aquamarine
+}
+
+#pcworld{
+    font-size: 13px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.pro_and_con{
+    margin: 20px;
+    font-weight: 600;
+}
+
+#about_photoshop li{
+    list-style:circle;
+    margin: 5px;
+}
+
+
+#benefit {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+#operate {
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+#other {
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+#creative {
+    font-weight: 600;
+}
+#the_rise_of_alternatives li{
+    list-style:decimal;
+    margin: 5px;
+    font-size: 13px;
+}
+
+#the_rise_of_alternatives li a{
+    text-decoration: none;
+    color: seagreen;
+}
+
+#the_rise_of_alternatives li a:hover {
+    font-weight: bold;
+    font-size: 13px;
+    transition: font-size 0.3s ease;
+    color: seagreen;
+}
+
+
+#the_rise_of_alternatives li a:visited {
+    color:darkblue;
+}
+
+
+#conclusion {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+
+#balance li{
+    list-style:circle;
+    margin: 5px;
+    line-height: ;
+}
+
+#code2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    border-style: solid;
+    border-radius: 40px;
+    border-width:thin;
+    padding: 10px;
+    text-align: justify;
+    line-height: 18px;
+    background-color: aquamarine;
+}
+
+#references {
+    margin-bottom: 60px;
+}
+
+
+#references li a {
+    text-decoration: none;
+    color: black;
+    color: seagreen;
+    font-size: 12px;
+}
+
+#references li a:hover {
+    font-size: 13px;
+    font-weight: bold;
+    transition: font-size 0.3s ease;
+    color: seagreen;
+}
+
+#references li a:visited {
+    color:darkturquoise;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 500px) {
+    .main-doc1{font-size: 11px;}
+     header {font-size: 11px;}
+    #photoscape_header {font-size: 11px;}
+    .nav-link li {font-size: 11px;}
+    #the_rise_of_alternatives li {font-size: 11px;}
+    #references li a {font-size: 11px;}
+    #conclusion {font-size: 11px;}
+}
+
+

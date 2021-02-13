@@ -1,0 +1,336 @@
+html, body, head {
+    font-family:'MedievalSharp', sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 0.3px;
+    line-height: 1.5em;
+    text-shadow: 0.01px 1px black;
+    text-overflow: clip;
+    background-color: white;
+}
+
+/*ENTIRE CONTENT*/
+.main-doc1{   
+    
+/*IMAGE */
+    background-image: url(https://i.pinimg.com/originals/41/6e/80/416e80d51932b9be20fa1c97bf6fda0e.png);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+/*CONTENT*/
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items:stretch;
+    height: 100%;
+    text-align: justify;
+}
+
+
+/*BOX INSIDE ENTIRE CONTENT*/
+#box-container{
+    height: 100%;
+    display: flex;
+    flex: 1;
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+/*NAVIGATION */
+.entire_nav-bar {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 97%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    justify-content: flex-end;
+    
+    background-image: url(https://i.imgur.com/QDuOsqo.jpeg);
+    background-image: repeat;
+    padding-top: 4em;
+    padding-right: 24px;
+    color: seagreen;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: left;
+    line-height: 18px;
+    margin-right: 0.2em;
+    padding: 10px;
+    color: #FFA500;
+    text-shadow: 1px 0.01px;
+    opacity: 80%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+    background-color: #d1c1a0;
+    border-radius: 20px;
+}
+
+.nav-link li:hover {
+    font-size: 23px;
+    transition: font-size 0.3s ease;
+    color:
+    
+}
+
+
+/*HEADER*/
+#header title{
+/*   border: solid red; */
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;    
+    font-size: 1.6em;
+    font-weight: 100;
+    line-height: 1.5;
+    padding-top: 5.5em; 
+    margin-left: 2em;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.links {
+    margin: 20px;
+    line-height: 23px;
+    font-size: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    transition: ease 0.3s;
+    background-color: gold;
+    border-radius: 10px;
+}
+
+.links:hover {
+    font-size: 12px;
+    transition: font-size 0.2s ease;
+}
+
+             
+/* ANOTHER BOX INSIDE THE ENTIRE CONTENT */
+/* #second_main { */
+/*     width: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 90px;
+    padding: 10px; */ 
+  
+/* } */
+
+
+/*INTRODUCTION*/
+#welcome-section {
+/*     height: vh; */
+    display: inline-block;
+}
+
+
+/*QUOTES*/
+#welcome-section h1 {
+    font-size: 22px;
+    line-height: 35px;
+    font-style: oblique;
+    text-shadow: none;
+    text-align: center;
+}
+
+#code h3{
+    font-size: 14px;
+    font-style: oblique;
+    text-shadow: none;
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 80px;
+}
+
+.paragraph {
+    font-size: 1em;
+    letter-spacing: 0.7px;
+    line-height: 26px;
+    text-shadow: 0.01px 1px black;
+    text-overflow: clip;
+    background-color: white;
+}
+
+.paragraph p{
+    margin-right: 10px;
+}
+
+
+.paragraph h4 {
+    font-size: 20px;
+}
+
+
+/*VIDEO*/
+.yt-container {
+/*     border: solid red; */
+    position: relative;
+    padding-bottom: 51.25%;
+    height: 0;
+  
+}
+
+.yt-container iframe, .yt-container object, .yt-container embed {
+/*   border: solid green; */
+  border: 3px double #999;
+  position: absolute;
+  top: 0;
+  left:0;
+  margin-top: 1.5em;
+/*   margin-bottom: 2em; */
+  width: 50%;
+  height: 80%;
+  max-width: 50%;
+  max-height: 80%;
+}
+
+#movie {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+#box {
+  /*   border: solid red; */
+  margin-top: 2.5em;
+  margin-bottom: -0.7em;
+}
+
+
+hr {
+    border-style:ridge;
+    margin-top: 2em;
+    color: lightgray;
+}
+
+
+/*HEADERS IN THE CONTENT*/
+header {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+
+/*ABOUT ME SECTION*/
+.main-section {   
+    display: relative;
+}
+
+
+#about_me li{
+    list-style:circle;
+    margin: 5px;
+    font-size: 14px;
+}
+
+
+/*HOBBIES LIST / LINKS*/
+#hobbies_list li{
+    list-style:upper-roman;
+    margin: 10px;
+    color: black;
+    font-size: 16px;
+}
+
+#hobbies_list a {
+    text-decoration: none;
+    color: maroon;
+}
+
+
+#hobbies_list li a:hover {
+    transition: font-size 0.3s ease;
+    font-size: 15px;
+}
+
+
+/*FREECODECAMP IMG LINK*/
+
+#img {
+/*     border: solid red; */
+    text-align: center;
+    margin-left: 8.6em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    opacity: 0.7;
+    transition: 0.5s;
+    height: 40%; 
+    width: 45%; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+
+#img:hover {
+    background-color: #ba0000;
+    opacity: 0.6;
+    border-radius: 6px;
+    padding: 0.55em;
+   
+    
+}
+
+/*REFERENCES LIST / LINK*/
+#references {
+    margin-bottom: 100px;
+    opacity: 1;
+}
+
+#references ul li a {
+    text-decoration: none;
+    color: maroon;
+    font-size: 1em;
+    color: maroon;
+    text-shadow: 1px 0.1px;
+}
+
+#references ul li a:hover {
+    transition: font-size 0.3s ease;
+    font-size: 1.15em;
+}
+
+
+
+/*MEDIA QUERIES*/
+/* @media screen and (max-width: 400px) {
+#box-container{font-size: 11px;}
+.entire_nav-bar {font-size: 11px;}
+.nav-link {font-size: 11px;}
+.nav-link li{font-size: 11px;}
+#header title{font-size: 11px;}
+#buttons {font-size: 11px;}
+#about_me {font-size: 11px;}
+.submit {font-size: 11px;}
+/* #second_main {font-size: 11px;} */
+/* #welcome-section {font-size: 11px;}
+#welcome-section h1 {font-size: 11px;}
+#code h3 {font-size: 11px;}
+       .projects-section {font-size: 11px;}
+      .main-section {font-size: 11px;}
+header{font-size: 11px;}
+#about_me li{font-size: 11px;}
+#hobbies_list li{font-size: 11px;}
+#references {font-size: 511px;}
+} */
+
+ 
