@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Survey Form for freeCodeCamp</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <link rel="stylesheet" href="style.css">
+   </head>
+    
+    <body>
+        <header>
+        <h1 id="title">Guitar Survey</h1>
+	      <p id="description">Tell us which one rocks the most!</p>
+            </header> 
+                        
+        
+        <form id="survey-form">
+            <div id="nameform"> 
+                <label for="name" id="name-label">Your Name:
+                    <input id="name" type="text" name="name" class="inputs" placeholder="Enter name" required>
+                    </label></div>
+                <br />
+                    <div id="emailform">
+                        <label for="email" id="email-label">Your e-mail:
+                            <input id="email" type="email" name="email" class="inputs" placeholder="Enter e-mail address" required>
+                            </label></div>
+                        <br />
+                          <div id="ageform">
+                           <label for="number" id="number-label">Your age:
+                              <input id="number" type="number" name="age" class="inputs" placeholder="1-122" min="1" max="122" required></label></div>
+            <br />
+            
+            <div id="droptext">
+            Which is your favorite guitar brand?
+            <select id="dropdown" class="inputs" name="Guitars">
+                <option value="fender">Fender</option>
+                <option value="gibson">Gibson</option>
+                <option value="greco">Greco</option>
+                <option value="ibanez">Ibanez</option>
+                <option value="schecter">Schecter</option>
+              <option value="solar">Solar</option>
+                </select></div>
+            <br />
+            
+            
+            <div id="radiotext">
+            <u>Give us the reason why you chose that brand:</u></div>
+            <br />
+            
+            <input type="radio" name="brand" id="brand1" value="Better">
+            <label for="brand1">Because I don't know any better</label> 
+            <br />
+            
+             <input type="radio" name="brand" id="brand2" value="Awesome">
+            <label for="brand2">Because it's awesoooome</label> 
+            <br />
+            
+             <input type="radio" name="brand" id="brand3" value="Money">
+            <label for="brand3">I don't have money for anything else</label> 
+            <br />
+            
+             <input type="radio" name="brand" id="brand4" value="Elithist">
+            <label for="brand4">I'm an elitist</label> 
+            <br />
+            
+            <input type="radio" name="brand" id="brand5" value="Website">
+            <label for="brand5">This website sucks</label> 
+            <p></p>
+            
+            <div id="checkboxtext">
+            <u>Do you prefer American brands or foreign brands?</u></div>
+            <br />
+            
+            <input type="checkbox" name="answer" id="answer1" value="American">
+            <label for="answer1">American</label> 
+            <br />
+            
+            <input type="checkbox" name="answer" id="answer2" value="Foreign">
+            <label for="answer2">Foreign</label> 
+            <br />
+            
+            <input type="checkbox" name="answer" id="answer3" value="Yes">
+            <label for="answer3">Yes</label> 
+            <p></p>
+            
+            <div id="comments">
+            <u>Wanna leave us some comments? Submit them right here!</u></div>
+            
+            <br />
+            
+            <textarea name="comments" rows="10" cols="50" placeholder="Comment here!">
+            </textarea>
+            
+            <p></p>
+            
+            <button id="submit" class="submit">Submit your survey!</button>
+        </form>
+            
+             <div id="paragraph">
+                    <p>Photos by Edward Eyer, and rawpixels.com, taken from Pexels.com</p>
+              </div>
+            
+     
+    </body>
+</html>
+            
+            
