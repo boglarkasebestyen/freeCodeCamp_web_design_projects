@@ -1,0 +1,396 @@
+
+/*@font-face {*/
+    /*    font-family: "Boogaloo", cursive;*/
+    /*    font-style: normal;*/
+    /*    src: url("https://fonts.googleapis.com/css?family=Boogaloo") rel="stylesheet" format("Boogaloo");*/
+    
+    
+    body {
+      font-family: 'Lato', sans-serif;
+    }
+    
+    body-background {
+        background-repeat: repeat;
+    }
+    
+    #header {
+      overflow:hidden;
+    }
+    
+    #nav-bar {
+      width: 99%;
+      background-color: lightskyblue;
+      position: fixed;
+      top: 0;
+      z-index: 15;
+      border-radius: 10px;
+    
+    }
+    
+    #nav-bar img {
+        margin-top:20px;
+        margin-left:30px;
+        margin-bottom:10px;
+        height: 3em;
+        width: 15em;
+        border: 0.5px;
+    }
+    
+    
+    #nav-bar a {
+        float:right;
+        display:block;
+        text-align:center;
+        padding: 30px;
+        margin-right:30px;
+        text-decoration: none;
+        color: antiquewhite;
+        font-weight: 700;
+    }
+    
+    #nav-bar a:hover {
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: bold;
+        transition: font-size 0.3s ease;
+    }
+    
+    #nav-bar a:visited{
+        color:brown;
+    }
+        
+    
+    .nav-link {
+        padding: 20px; 
+    }
+    
+    
+    a {
+        text-decoration: none;    
+    }
+    
+    li {
+        list-style: none;
+        padding: 5px;
+    }
+    
+    #container {
+        max-width: 1000px;
+        width: 100%;
+        margin: auto, 0
+    }
+    
+    main {
+        display: block;
+        margin: 200px;
+        background-color: #eee;
+        border-radius: 10px;
+    }
+    
+    #kids {
+        margin-top: 150px;
+    }
+    
+    #kids h2 {
+        text-align: center;
+        font-weight: 20;
+        font-size: 33px;
+        padding-top: 30px;
+        text-shadow: 1px 0.5px deepskyblue;
+    }
+    
+    #form {
+        text-align: center;
+    }
+    
+    .inputs {
+        width: 20%;
+        height: 20px;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 22px;
+        border-radius: 10px;
+    }
+    
+    #submit {
+        text-transform:uppercase;
+        font-weight: 800;
+        font-size: 12px;
+        border-radius: 10px;
+        height: 30px;
+        background-color:deepskyblue;
+        border: solid gray transparent;
+    }
+        
+    #submit:hover {
+        background-color:bisque;
+    }
+    
+    #email {
+        width:95%;
+        margin: 0px;
+    }
+    
+    #subscribetable {
+        margin:auto;
+        padding: 0px;
+        width:15em;
+        border: none;
+    /*    border: 1px solid black;*/
+    }
+    
+    #subscribetable tr {
+        height: 50px;
+    }
+    
+    #section-container {
+        width: 60%;
+    /*  border: solid;*/  
+        margin-left: 20px;
+    }
+    
+    #history h2 {
+        margin-top: 70px;
+        font-size: 20px;
+    }
+    
+    #history h2 a {
+        margin-left: 30px;
+    }
+    
+    #history p {
+        display:block;
+        margin-left: 10px;
+        text-align:justify;
+        font-size: 17px;
+        letter-spacing: 0.3px;
+        line-height: 24px;
+        text-overflow:clip;
+    }
+    
+    #history-img {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -89px;
+        margin-top: 40px;
+    }
+    
+    p a{
+        text-decoration: underline;
+        color: skyblue;
+    }
+    
+    p a:hover{
+        font-weight: 900;
+        color: crimson;
+    }
+    
+    #fandom h2 {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    
+    #fandom h2 a {
+        margin-left: 30px;
+    }
+    
+    #fandom p {
+        display:block;
+        margin-left: 10px;
+        text-align:justify;
+        font-size: 17px;
+        letter-spacing: 0.3px;
+        line-height: 24px;
+    }
+    
+    #fandom-img {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -49px;
+        margin-top: 40px;
+    }
+    
+    #merch h2 {
+        margin-top: 30px;    
+        font-size: 20px;
+    }
+    
+    #merch h2 a {
+        margin-left: 30px;
+    }
+    
+    #merch p {
+        display:block;
+        margin-left: 10px;
+        text-align:justify;
+        font-size: 17px;
+        letter-spacing: 0.3px;
+        line-height: 24px;
+    }
+    
+    #merch-img {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -49px;
+        margin-top: 40px;
+    }
+    
+    #video {
+       text-align: center;
+       margin: 0 auto;
+       display: block;
+       width: 500px;
+        padding-top:40px;
+    }
+    
+    #subscription {
+        text-align:center;
+        margin-top: 60px;
+    }
+    
+    #subscription h2 {
+        font-size: 25px;
+        text-shadow: 1px 0.5px deepskyblue;
+    }
+    
+    #subscription p{
+        font-size: 17px;
+        letter-spacing: 0.3px;
+        line-height: 24px;
+        word-spacing: 1px;
+    }
+    
+    #subscription sp{
+        color: mediumpurple;
+    }
+    
+    #pricing {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 50px;
+        padding-bottom: 90px;
+    }
+    
+    .subscription-type {
+        text-align: center;
+        font-size: 21px;
+        font-weight: 700;
+        color:mediumpurple;
+        background-color:darkorange;
+        padding: 10px;
+        text-shadow: 
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    }
+    
+    #plank {
+        text-align: center;
+        border: solid orange;
+        padding-bottom: 20px;
+    }
+    
+    #plank ol li {
+        text-align: left;
+        margin-bottom: 10px;
+        margin-right: 30px;
+    }
+    
+    .btn {
+        text-transform:uppercase;
+        font-weight: 800;
+        font-size: 12px;
+        border-radius: 10px;
+        height: 30px;
+        background-color:deepskyblue;
+        border: solid gray transparent;
+    
+    }
+    
+    .btn:hover{
+        background-color:bisque;
+    }
+    
+    
+    #bike{
+        text-align: center;
+        border: solid orange;
+    }
+    
+    #bike ol li{
+        text-align: left;
+        margin-bottom: 10px;
+        margin-right: 30px;
+    }
+    
+    #jawbreaker{
+        text-align: center;
+        border: solid orange;
+    }
+    
+    #jawbreaker ol li{
+        text-align: left;
+        margin-bottom: 10px;
+        margin-right: 30px;
+    }
+    
+    footer{
+        margin-top: -180px;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: right;
+        background-color: #eee;
+        border-radius: 10px;
+    }
+    
+    footer ul li {
+        float: right;
+        display: block;
+        margin-right: 20px;
+    }
+    
+    footer ul li a {
+        color:azure;
+        font-weight: 100;
+        text-shadow: 
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    }
+    
+    footer ul li a:hover {
+        color:aqua;
+    }
+    
+    span {
+        display: block;
+        text-align: right;
+        font-size: 13px;
+        margin-top: 33px;
+        margin-right: 23px;
+    }
+    
+    #last-paragraph{
+        display: block;
+        text-align: right;
+        font-size: 12px;
+        margin-top: auto 0;
+        margin-right: 27px;
+    }
+    
+    
+    @media (max-width: 800px) {
+        p {
+            font-size: 1.25rem;
+        }
+    }
+    
+    @media (orientation: landscape){
+        
+    }
