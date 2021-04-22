@@ -1,4 +1,5 @@
-![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdesign-style-guide.freecodecamp.org%2Fdownloads%2Ffcc_secondary_large.png&f=1&nofb=1)
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.markallenwebdeveloper.co.uk%2Fwp-content%2Fuploads%2F2018%2F09%2FfreeCodeCamp-1200x200.jpg&f=1&nofb=1)
+
 
 freeCodeCamp is a donor-supported tax-exempt 501(c)(3) nonprofit organization. Their mission is to help people learn to code for free by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public. They also have thousands of freeCodeCamp study groups around the world.
 
